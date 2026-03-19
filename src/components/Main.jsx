@@ -10,7 +10,7 @@ export default function Main() {
       <div className="row align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6 text-center">
           <img
-            src="/logo.png"
+            src="../public/logo.png"
             className="d-block mx-auto img-fluid"
             alt="Phoenix Dance Academy Logo"
             width="350"
