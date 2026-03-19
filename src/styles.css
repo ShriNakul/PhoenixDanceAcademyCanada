@@ -1,0 +1,172 @@
+/* Global font */
+* {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-stretch: 110%;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+/* Social links */
+.social-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #ffdd55;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.social-link:hover {
+  opacity: 0.7;
+}
+
+/* Instagram wrapper (keeps OG styling but centers it) */
+.insta-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center Instagram embed perfectly */
+.instagram-media {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: none !important;
+}
+
+/* YouTube Short wrapper */
+.yt-short-wrapper {
+  width: 100%;
+  max-width: 350px; /* typical Shorts width */
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.yt-short-wrapper iframe {
+  width: 100%;
+  height: 620px; /* vertical short height */
+  border: none;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: white;
+  padding: 18px 40px;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+.logo-img {
+  width: 55px;
+  height: auto;
+  border-radius: 23%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links .nav-link {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: black !important;
+  transition: 0.2s;
+  padding: 0 !important;
+}
+
+.nav-links .nav-link:hover {
+  opacity: 0.6;
+}
+
+/* Buttons */
+.registerBig-btn {
+  background: white;
+  color: black;
+  border: none;
+  padding: 16px 44px;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.registerBig-btn:hover {
+  opacity: 0.8;
+}
+
+.register-btn button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.register-btn button:hover {
+  opacity: 0.8;
+}
+
+.testimony-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.testimony-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimony-name {
+  font-size: 1.5rem;
+}
+
+.whyus-section {
+  color: white;
+}
+
+.whyus-title {
+  font-size: 2.5rem;
+}
+
+.whyus-sub {
+  font-size: 2rem;
+}
+
+.carousel-box {
+  background: #000;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 10px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  * {
+    text-align: center !important;
+  }
+}

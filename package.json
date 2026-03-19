@@ -1,0 +1,35 @@
+{
+  "name": "PhoenixDanceAcademyCanada",
+  "version": "1.0.0",
+  "homepage": "https://ShriNakul.github.io/PhoenixDanceAcademyCanada",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "jquery": "4.0.0",
+    "react": "18.2.0",
+    "react-bootstrap": "2.10.10",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.29.2",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

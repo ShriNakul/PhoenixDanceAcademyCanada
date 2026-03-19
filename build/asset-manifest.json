@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PhoenixDanceAcademyCanada/static/css/main.5e32b0ff.css",
+    "main.js": "/PhoenixDanceAcademyCanada/static/js/main.91f0ab0a.js",
+    "index.html": "/PhoenixDanceAcademyCanada/index.html",
+    "main.5e32b0ff.css.map": "/PhoenixDanceAcademyCanada/static/css/main.5e32b0ff.css.map",
+    "main.91f0ab0a.js.map": "/PhoenixDanceAcademyCanada/static/js/main.91f0ab0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e32b0ff.css",
+    "static/js/main.91f0ab0a.js"
+  ]
+}
