@@ -5,8 +5,8 @@ export default function Header(props) {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid">
-        <a className="navbar-brand d-flex align-items-center" href="/">
-          <img src="/logo.png" alt="Logo" className="logo-img" />
+        <a className="navbar-brand d-flex align-items-center" href="https://shrinakul.github.io/PhoenixDanceAcademyCanada/">
+          <img src="./logo.png" alt="Logo" className="logo-img" />
         </a>
 
         <button
